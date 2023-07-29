@@ -42,16 +42,16 @@ features:
 action_groups:
 # Handlungsfeld
 - id: buildings
-  name: Gebäude
-  name_en: Buildings
+  name: Gebäude und Wärmeversorgung
+  name_en: Buildings and heat supply
   color: '#002F96'
 - id: mobility
   name: Mobilität
-  name_en: Transportation
+  name_en: Mobility
   color: '#E22D53'
 - id: waste
   name: Entsorgung
-  name_en: Waste
+  name_en: Waste treatment
   color: '#F18830'
 - id: other
   name: Andere
