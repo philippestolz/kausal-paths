@@ -829,7 +829,7 @@ nodes:
     extend_rows: true
 
 - id: residential_building_area
-  name_de: Energiebezugsflächen Wohnen
+  name_de: Geschossfläche Wohnen
   name_en: Building floor area Residential
   type: simple.MultiplicativeNode
   quantity: floor_area
