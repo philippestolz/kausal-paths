@@ -934,8 +934,8 @@ nodes:
     - id: heating_system
 
 - id: biogas_share
-  name_de: Biogasanteil im Gasnetz
-  name_en: Share of biogas in gas grid
+  name_de: Anteil erneuerbares Gas
+  name_en: Share of renewable gas
   type: ch.zuerich.BiogasShare
   unit: '%'
   quantity: ratio
