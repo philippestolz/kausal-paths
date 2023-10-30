@@ -390,8 +390,8 @@ dimensions:
     label_en: Aviation
 
 - id: non_road_machinery
-  label: Non-Road Maschinen
-  label_en: Non-road machinery
+  label: Baumaschinen und Spezialfahrzeuge
+  label_en: Construction machinery and special vehicles
   categories:
   - id: building_construction_machinery
     label: Maschinen Hochbau
@@ -1525,8 +1525,8 @@ nodes:
       flatten: true
 
 - id: non_road_machinery_fuel_consumption
-  name_de: Kraftstoffverbrauch Non-Road Maschinen
-  name_en: Fuel consumption of non-road machinery
+  name_de: Kraftstoffverbrauch Baumaschinen und Spezialfahrzeuge
+  name_en: Fuel consumption of construction machinery and special vehicles
   type: simple.AdditiveNode
   quantity: fuel_consumption
   unit: kt/a
@@ -1537,8 +1537,8 @@ nodes:
   input_dataset_processors: [LinearInterpolation]
 
 - id: non_road_machinery_emissions
-  name_de: Treibhausgasemissionen Non-Road Maschinen
-  name_en: Fuel consumption of non-road machinery
+  name_de: Treibhausgasemissionen Baumaschinen und Spezialfahrzeuge
+  name_en: Fuel consumption of construction machinery and special vehicles
   short_name_de: Non-Road Maschinen
   short_name_en: Non-road machinery
   type: ch.zuerich.NonroadMachineryEmissions
